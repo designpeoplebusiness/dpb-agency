@@ -1,6 +1,13 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/assets/og.png", "destination": "https://card.dpb.agency/assets/dpb/og.png" },
+    { "source": "/assets/icon-48.png", "destination": "https://card.dpb.agency/assets/dpb/icon-48.png" },
+    { "source": "/assets/icon-192.png", "destination": "https://card.dpb.agency/assets/dpb/icon-192.png" },
+    { "source": "/assets/icon-512.png", "destination": "https://card.dpb.agency/assets/dpb/icon-512.png" },
+    { "source": "/assets/apple-touch-icon.png", "destination": "https://card.dpb.agency/assets/dpb/apple-touch-icon.png" }
+  ],
   "headers": [
     {
       "source": "/(.*)",
